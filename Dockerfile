@@ -1,5 +1,10 @@
 FROM python:latest
+
 EXPOSE 8080
-ADD script.py /
+
+COPY a1.py .
+COPY . .
+
 WORKDIR /usr/src/app
+
 CMD ["/bin/bash"]
