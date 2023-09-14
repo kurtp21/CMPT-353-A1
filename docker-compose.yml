@@ -1,0 +1,11 @@
+version: '24.0.6'
+services:
+assignment1:
+  build: .
+  container_name: a1
+  ports:
+  - "80:8080"
+  volumes:
+  - /Users/kurtpagal/University/Year3/Fall-Term/CMPT-353/CMPT-353-A1:/usr/src/app/
+  stdin_open: true
+  tty: true
