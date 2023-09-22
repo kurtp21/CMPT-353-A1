@@ -7,4 +7,4 @@ COPY . .
 
 WORKDIR /usr/src/app
 
-CMD ["/bin/bash"]
+CMD ["python", "a1.py"]
